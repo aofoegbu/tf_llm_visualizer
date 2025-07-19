@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Transformer Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Interactive Transformer / LLM Visualizer</h1>
+
+    <label for="layerSelect">Layer:</label>
+    <select id="layerSelect"></select>
+
+    <label for="headSelect">Head:</label>
+    <select id="headSelect"></select>
+
+    <svg id="attentionMap" width="800" height="400"></svg>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
